@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    position: relative;
+    z-index: -99999;
+    background-color: #ff7978;
+    background-image: url("images/bg-intro-mobile.png");
+    font-family: 'Poppins';
+    
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1,.text2{
+    color: white;
+}
+
+.text1{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+.text2{
+    margin-top: 1.5rem;
+    font-size: 4vw;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 20vw;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 120vw;
+    width: 85%;
+    border-radius: 7px;
+    margin-bottom: 3rem;
+}
+
+input{
+    width: 85%;
+    margin-top: 1rem;
+    height: 15%;
+}
+
+#Password{
+    margin-bottom: 1rem;
+}
+
+button{
+    width: 85%;
+    height: 18vw;
+    background-color: #37cc8a;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-size: 4vw;
+}
+
+.ftext{
+    font-size: 2.5vw;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+.indent{
+    text-indent: -40px;
+}
+
+.red{
+    color: #ff7978;;
+    font-weight: 700;
+}
+.bold{
+    font-weight: 700;
+}
+
+input::placeholder{
+    font-weight: 700;
+    text-indent: 4vw;
+}
+.error{
+    display: none;
+    font-size: 3vw;
+    color: red;
+    margin-left: 28vw;
+    margin-bottom: -1vw;
+    margin-top: -4vw;
+}
+.error-bis{
+    display: none;
+    font-size: 3vw;
+    color: red;
+    margin-left: 28vw;
+    margin-bottom: -1vw;
+    margin-top: -4vw;
+}
+
+.error-lname{
+    display: none;
+    font-size: 3vw;
+    color: red;
+    margin-left: 28vw;
+    margin-bottom: -1vw;
+    margin-top:-4vw
+}
+
+.error-password{
+    display: none;
+    font-size: 3vw;
+    color: red;
+    margin-left: 23vw;
+    margin-top:-9vw;
+}
+.imput1{
+    display: flex;
+}
+.icon-error{
+    display: none;
+    position: relative;
+    z-index: 999;
+    left: 25vw;
+    bottom: 10vw;
+}
+.icon-error1{
+    display: none;
+    position: relative;
+    z-index: 999;
+    left: 25vw;
+    bottom: 10vw;
+}
+.icon-error2{
+    display: none;
+    position: relative;
+    z-index: 999;
+    left: 25vw;
+    bottom: 10vw;
+}
+.icon-error3{
+    display: none;
+    position: relative;
+    z-index: 999;
+    left: 25vw;
+    bottom: 14vw;
+}
+#fname{
+    border: "";
+}
+
+#lname{
+    border: "";
+}
+
+#email{
+    border: "";
+}
+
+#Password{
+    border: "";
+}
+input{
+    border-radius: vw;
+}
+
+@media (min-width:600px){
+    
+    body{
+        overflow: hidden;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .text1{
+        font-size: 4vw;
+    }
+    .text2{
+        font-size: 1.8vw;
+    }
+
+    .square{
+        width: 50vw;
+        max-height: 4vw;
+    }
+    form{
+        width: 50vw;
+        max-height: 30%;
+    }
+    .ftext{
+        font-size: 1.2vw;
+    }
+    p{
+        font-size: 1vw;
+    }
+    p br{
+        display: none;
+    }
+
+    button{
+        font-weight: 500;
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    button br{
+        display: none;
+    }
+
+    .block1{
+        margin:0;
+        padding: 0;
+        margin-top: -70rem;
+        margin-right: 2rem;
+    }
+    .block2{
+        margin-right: -2rem;
+    }
+    .ftext br{
+        display: none;
+    }
+
+    .error{
+        display: "none";
+        font-size: 1vw;
+        color: red;
+        margin-left: 28vw;
+        margin-bottom: -1vw;
+        margin-top:1vw;
+    }
+    .icon-error1{
+        display: none;
+        position: relative;
+        z-index: 999;
+        left: 18vw;
+        bottom: 3vw;
+    }
+    .icon-error3{
+        display: none;
+        position: relative;
+        z-index: 999;
+        left: 18vw;
+        bottom: 4vw;
+    }
+    .error-bis{
+        display: none;
+        font-size: 1vw;
+        color: red;
+        margin-left: 28vw;
+        margin-bottom: -1vw;
+        margin-top:1vw;
+    }
+    
+    .error-lname{
+        display: none;
+        font-size: 1vw;
+        color: red;
+        margin-left: 28vw;
+        margin-bottom: -1vw;
+        margin-top:-2vw;
+    }
+    
+    .error-password{
+        display: none;
+        font-size: 1vw;
+        color: red;
+        margin-left: 28vw;
+        margin-top:-3vw;
+    }
+    .icon-error{
+        display: "none";
+        position: relative;
+        z-index: 999;
+        left: 18vw;
+        bottom: 3vw;
+    }
+
+    .error{
+        display: block;
+        font-size: 1vw;
+        color: red;
+        margin-left: 28vw;
+        margin-bottom: -1vw;
+        margin-top:1vw;
+    }
+    .icon-error2{
+        display: "block";
+        position: relative;
+        z-index: 999;
+        left: 18vw;
+        bottom: 3vw;
+    }
+}
